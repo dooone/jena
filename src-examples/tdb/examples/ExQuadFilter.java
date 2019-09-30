@@ -47,6 +47,7 @@ public class ExQuadFilter
     public static void main(String ... args)
     {
         // This also works for default union graph ....
+        // Test
         TDB.getContext().setTrue(TDB.symUnionDefaultGraph) ;
         
         Dataset ds = setup() ;
